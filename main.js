@@ -82,11 +82,11 @@ console.log(reversed("I love to play with big balls"));
 
 console.log("\nonlyVowels")
 function onlyVowels(str){
-  str = str.toLowerCase()
+  
   let vowelsOnly = ""
   for (let o = 0; o < str.length; o++) {
     
-   if (str[o] === "i" || str[o] === "e" || str[o] === "a" || str[o] === "o" || str[o] === "u"){
+   if (str[o].toLowerCase() === "i" || str[o].toLowerCase() === "e" || str[o].toLowerCase() === "a" || str[o].toLowerCase() === "o" || str[o].toLowerCase() === "u"){
      vowelsOnly = vowelsOnly + str[o]
   }
   }
